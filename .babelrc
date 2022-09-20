@@ -1,0 +1,13 @@
+// Custom module resolver plugin for Babel
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "~": "./src"
+        }
+      }
+    ]
+  ]
+}
